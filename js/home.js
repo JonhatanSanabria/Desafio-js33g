@@ -1,4 +1,8 @@
-import { fetchAllPosts } from "../modules/postsApi.js";
+import { fetchAllPosts } from "../modules/postsApi.js"
+
+document.getElementById("create-post-form").addEventListener("click", () => {
+  window.open("../views/postForm.html")
+})
 
 const createPostCard = (postObject) => {
     let {title, content, tags, author, date, picture, reactions} = postObject
