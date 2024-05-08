@@ -1,4 +1,8 @@
-import { fetchAllPosts } from "../modules/postsApi.js";
+import { fetchAllPosts } from "../modules/postsApi.js"
+
+document.getElementById("create-post-form").addEventListener("click", () => {
+  window.open("../views/postForm.html")
+})
 
 let createPostBtn = document.getElementById("create-post-btn");
 

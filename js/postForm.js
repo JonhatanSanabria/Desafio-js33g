@@ -1,4 +1,5 @@
-import { createPostCard } from "../modules/postsApi.js";
+
+import {createPostCard} from "../modules/postsApi.js"
 
 let createPostBtn = document.getElementById("save-comment");
 createPostBtn.addEventListener("click", async (event) => {

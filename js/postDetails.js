@@ -14,7 +14,7 @@ const printPostData = async (postKey) => {
     let {title, content, tags, author, date, picture, reactions} = postData
 
     document.getElementById("post-picture").setAttribute("src", picture)
-    document.getElementById("post-date").innerText = date
+    document.getElementById("post-date").setAttribute(new Date) = date
     document.getElementById("post-tags").innerText = tags
     document.getElementById("post-title").innerText = title
     document.getElementById("post-author").innerText = author
